@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Main {
     public static void main(String[] args) {
 
-        //question 2:
+        // question 2:
         WebDriver driver1 = new ChromeDriver();
         WebDriver driver2 = new FirefoxDriver();
         WebDriver driver3 = new EdgeDriver();
@@ -22,7 +22,7 @@ public class Main {
         driver2.close();
         driver3.close();
 
-        //question 3:
+        // question 3:
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.shoppersstop.com/");
         driver.findElement(By.className("user-icon")).click();
